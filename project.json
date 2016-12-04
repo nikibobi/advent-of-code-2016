@@ -6,6 +6,7 @@
     "compile": {
       "includeFiles": [
         "Day1.fs",
+        "Day2.fs",
         "Program.fs"
       ]
     }
