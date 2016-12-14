@@ -8,12 +8,14 @@
         "Day1.fs",
         "Day2.fs",
         "Day3.fs",
+        "Day4.fs",
         "Program.fs"
       ]
     }
   },
   "dependencies": {
-    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509"
+    "Microsoft.FSharp.Core.netcore": "1.0.0-alpha-160509",
+    "System.Text.RegularExpressions": "4.3.0",
   },
   "tools": {
     "dotnet-compile-fsc": {
