@@ -5,6 +5,7 @@ open Day1
 open Day2
 open Day3
 open Day4
+open Day5
 
 [<EntryPoint>]
 let main argv =
@@ -13,4 +14,5 @@ let main argv =
     File.ReadLines("inputs/day2.txt") |> day2
     File.ReadLines("inputs/day3.txt") |> day3
     File.ReadLines("inputs/day4.txt") |> day4
+    File.ReadLines("inputs/day5.txt") |> day5
     0
