@@ -14,6 +14,7 @@
     <Compile Include="Day4.fs" />
     <Compile Include="Day5.fs" />
     <Compile Include="Day6.fs" />
+    <Compile Include="Day7.fs" />
     <Compile Include="Program.fs" />
     <EmbeddedResource Include="**\*.resx" />
   </ItemGroup>
@@ -21,6 +22,7 @@
   <ItemGroup>
     <PackageReference Include="FSharp.NET.Sdk" Version="1.0.0-beta-*" PrivateAssets="All" />
     <PackageReference Include="Microsoft.FSharp.Core.netcore" Version="1.0.0-alpha-161023" />
+    <PackageReference Include="System.Text.RegularExpressions" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
