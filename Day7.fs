@@ -2,10 +2,15 @@ module Day7
 open System
 open System.Text.RegularExpressions
 
+let (|ABBA|_|) array =
+    match array with
+    | [|a;b;b';a'|] when a = a' && b = b' && a <> b -> Some array
+    | _ -> None
+
 let hasABBA (s: string) =
     let isABBA =
         function
-        | [|a;b;b';a'|] when a = a' && b = b' && a <> b -> true
+        | ABBA x -> true
         | _ -> false
     (Seq.windowed 4 s)
     |> Seq.exists (isABBA)
